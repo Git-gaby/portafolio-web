@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gabriel Gómez | Portafolio Profesional</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Barra de Navegación Responsiva -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top border-bottom border-secondary border-opacity-25">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-info" href="#inicio">
+        <i class="bi bi-terminal me-2"></i>Gabriel Gómez
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto gap-1">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#estudios">Estudios</a></li>
+          <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#tecnologias">Tecnologías</a></li>
+          <li class="nav-item"><a class="nav-link" href="#intereses">Áreas de Interés</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección: Información Personal / Hero -->
+  <header id="inicio" class="hero-section border-bottom border-secondary border-opacity-25">
+    <div class="container py-4">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <span class="badge bg-primary bg-opacity-25 text-primary-emphasis mb-3 px-3 py-2 rounded-pill">
+            <i class="bi bi-shield-lock me-1"></i> Ciberseguridad & Sistemas Operativos
+          </span>
+          <h1 class="display-4 fw-bold mb-3">Gabriel Jaime Gómez Restrepo</h1>
+          <p class="lead text-light mb-4">
+            Estudiante de <strong>Ingeniería Informática</strong> en 4.° semestre con interés enfocado en la seguridad de la información, administración de sistemas operativos Unix/Linux, infraestructura cloud (AWS) y sistemas embebidos.
+          </p>
+          <div class="d-flex flex-wrap gap-2">
+            <a href="https://github.com/Git-gaby" target="_blank" class="btn btn-outline-light">
+              <i class="bi bi-github me-1"></i> GitHub
+            </a>
+            <a href="mailto:gabriel0322024@gmail.com" class="btn btn-primary">
+              <i class="bi bi-envelope me-1"></i> Contactar
+            </a>
+          </div>
+        </div>
+
+        <!-- Columna con la Foto de Perfil -->
+        <div class="col-lg-4 text-center mt-4 mt-lg-0">
+          <div class="p-3 bg-secondary bg-opacity-10 rounded-4 border border-secondary border-opacity-25 shadow">
+            <img src="assets/img/perfil.jpg" alt="Gabriel Gómez" class="img-fluid rounded-circle border border-2 border-info mb-3" style="width: 170px; height: 170px; object-fit: cover;">
+            <h5 class="mb-1">Gabriel Gómez</h5>
+            <p class="text-secondary small mb-0">Enfocado en seguridad, Linux y desarrollo técnico.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <main class="container py-5">
+
+    <!-- Sección: Estudios Realizados -->
+    <section id="estudios" class="mb-5 py-3">
+      <div class="d-flex align-items-center mb-4">
+        <i class="bi bi-mortarboard text-info fs-3 me-2"></i>
+        <h2 class="h3 fw-bold mb-0">Estudios Realizados</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card h-100 bg-dark border-secondary border-opacity-25 p-3">
+            <div class="card-body">
+              <span class="badge bg-info bg-opacity-25 text-info mb-2">En curso</span>
+              <h5 class="card-title fw-bold">Ingeniería Informática</h5>
+              <h6 class="card-subtitle text-secondary mb-3">Corporación Universitaria Unilasallista</h6>
+              <p class="card-text text-light">Cursando actualmente 4.° semestre. Formación orientada al desarrollo de software, análisis algorítmico, bases de datos y arquitectura computacional.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card h-100 bg-dark border-secondary border-opacity-25 p-3">
+            <div class="card-body">
+              <span class="badge bg-success bg-opacity-25 text-success mb-2">Activo</span>
+              <h5 class="card-title fw-bold">Semillero de Ciberseguridad</h5>
+              <h6 class="card-subtitle text-secondary mb-3">Investigación & Práctica</h6>
+              <p class="card-text text-light">Participación técnica en laboratorios de auditoría, reconocimiento de vulnerabilidades, configuración de entornos seguros y prácticas de red defensiva.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección: Proyectos -->
+    <section id="proyectos" class="mb-5 py-3">
+      <div class="d-flex align-items-center mb-4">
+        <i class="bi bi-code-square text-info fs-3 me-2"></i>
+        <h2 class="h3 fw-bold mb-0">Proyectos Destacados</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="card h-100 bg-dark border-secondary border-opacity-25">
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h5 class="card-title fw-bold text-info">Wiki-Hammer</h5>
+                <span class="badge bg-warning bg-opacity-25 text-warning">En desarrollo</span>
+              </div>
+              <p class="card-text text-light flex-grow-1">
+                Plataforma web comunitaria diseñada para recopilar y catalogar de forma exhaustiva las miniaturas de la franquicia <em>Warhammer 40,000</em> a través de todas sus ediciones disponibles.
+              </p>
+              <div class="mb-3">
+                <span class="badge bg-secondary bg-opacity-50 text-white-50">JavaScript</span>
+                <span class="badge bg-secondary bg-opacity-50 text-white-50">Bootstrap</span>
+                <span class="badge bg-secondary bg-opacity-50 text-white-50">HTML/CSS</span>
+                <span class="badge bg-secondary bg-opacity-50 text-white-50">Git</span>
+              </div>
+              <a href="https://github.com/Git-gaby" target="_blank" class="btn btn-sm btn-outline-info w-100">
+                <i class="bi bi-github me-1"></i> Ver Repositorio
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card h-100 bg-dark border-secondary border-opacity-25">
+            <div class="card-body d-flex flex-column">
+              <div class="d-flex justify-content-between align-items-start mb-2">
+                <h5 class="card-title fw-bold text-info">API REST & Arquitectura de Datos</h5>
+                <span class="badge bg-success bg-opacity-25 text-success">Completado</span>
+              </div>
+              <p class="card-text text-light flex-grow-1">
+                Servicio backend estructurado bajo arquitectura REST con control de acceso, validación de endpoints y persistencia sobre base de datos relacional para gestión de inventarios y préstamos.
+              </p>
+              <div class="mb-3">
+                <span class="badge bg-secondary bg-opacity-50 text-white-50">Node.js</span>
+                <span class="badge bg-secondary bg-opacity-50 text-white-50">Express</span>
+                <span class="badge bg-secondary bg-opacity-50 text-white-50">MySQL</span>
+                <span class="badge bg-secondary bg-opacity-50 text-white-50">Postman</span>
+              </div>
+              <a href="https://github.com/Git-gaby" target="_blank" class="btn btn-sm btn-outline-info w-100">
+                <i class="bi bi-github me-1"></i> Ver Repositorio
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección: Lenguajes y Tecnologías -->
+    <section id="tecnologias" class="mb-5 py-3">
+      <div class="d-flex align-items-center mb-4">
+        <i class="bi bi-tools text-info fs-3 me-2"></i>
+        <h2 class="h3 fw-bold mb-0">Lenguajes y Tecnologías</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 bg-dark border-secondary border-opacity-25 p-3">
+            <h5 class="card-title text-info mb-3"><i class="bi bi-code-slash me-2"></i>Lenguajes</h5>
+            <div class="d-flex flex-wrap">
+              <span class="badge bg-secondary bg-opacity-25 badge-tech">Python</span>
+              <span class="badge bg-secondary bg-opacity-25 badge-tech">JavaScript</span>
+              <span class="badge bg-secondary bg-opacity-25 badge-tech">Java</span>
+              <span class="badge bg-secondary bg-opacity-25 badge-tech">Bash / Shell</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 bg-dark border-secondary border-opacity-25 p-3">
+            <h5 class="card-title text-info mb-3"><i class="bi bi-layout-text-window me-2"></i>Frontend & UI</h5>
+            <div class="d-flex flex-wrap">
+              <span class="badge bg-secondary bg-opacity-25 badge-tech">HTML5</span>
+              <span class="badge bg-secondary bg-opacity-25 badge-tech">CSS3</span>
+              <span class="badge bg-secondary bg-opacity-25 badge-tech">Bootstrap</span>
+              <span class="badge bg-secondary bg-opacity-25 badge-tech">Tailwind CSS</span>
+              <span class="badge bg-secondary bg-opacity-25 badge-tech">Bulma</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 bg-dark border-secondary border-opacity-25 p-3">
+            <h5 class="card-title text-info mb-3"><i class="bi bi-hdd-network me-2"></i>Sistemas, BD & DevOps</h5>
+            <div class="d-flex flex-wrap">
+              <span class="badge bg-secondary bg-opacity-25 badge-tech">MySQL</span>
+              <span class="badge bg-secondary bg-opacity-25 badge-tech">Linux</span>
+              <span class="badge bg-secondary bg-opacity-25 badge-tech">Docker</span>
+              <span class="badge bg-secondary bg-opacity-25 badge-tech">VirtualBox</span>
+              <span class="badge bg-secondary bg-opacity-25 badge-tech">Git & GitHub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección: Áreas de Interés Profesional -->
+    <section id="intereses" class="mb-5 py-3">
+      <div class="d-flex align-items-center mb-4">
+        <i class="bi bi-compass text-info fs-3 me-2"></i>
+        <h2 class="h3 fw-bold mb-0">Áreas de Interés Profesional</h2>
+      </div>
+      <div class="row g-3">
+        <div class="col-md-6 col-lg-3">
+          <div class="p-3 bg-dark border border-secondary border-opacity-25 rounded-3 h-100">
+            <i class="bi bi-shield-check text-info fs-4"></i>
+            <h6 class="fw-bold mt-2">Ciberseguridad</h6>
+            <p class="text-secondary small mb-0">Hardening de sistemas, seguridad en redes e identificación de fallos de seguridad.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="p-3 bg-dark border border-secondary border-opacity-25 rounded-3 h-100">
+            <i class="bi bi-terminal-fill text-info fs-4"></i>
+            <h6 class="fw-bold mt-2">Sistemas Operativos</h6>
+            <p class="text-secondary small mb-0">Administración de entornos Linux, automatización y funcionamiento a bajo nivel.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="p-3 bg-dark border border-secondary border-opacity-25 rounded-3 h-100">
+            <i class="bi bi-cloud-check text-info fs-4"></i>
+            <h6 class="fw-bold mt-2">Cloud Computing (AWS)</h6>
+            <p class="text-secondary small mb-0">Despliegue y gestión de recursos eficientes en infraestructura en la nube.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="p-3 bg-dark border border-secondary border-opacity-25 rounded-3 h-100">
+            <i class="bi bi-motherboard text-info fs-4"></i>
+            <h6 class="fw-bold mt-2">Sistemas Embebidos</h6>
+            <p class="text-secondary small mb-0">Interacción entre código eficiente, microcontroladores y plataformas integradas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección: Contacto -->
+    <section id="contacto" class="py-4 border-top border-secondary border-opacity-25 text-center">
+      <h3 class="fw-bold mb-3">¿Hablamos de un proyecto o colaboración?</h3>
+      <p class="text-secondary mb-4">Disponible para proyectos académicos, semilleros y desarrollo técnico.</p>
+      <div class="d-flex justify-content-center gap-3">
+        <a href="mailto:gabriel0322024@gmail.com" class="btn btn-outline-info">
+          <i class="bi bi-envelope me-1"></i> gabriel0322024@gmail.com
+        </a>
+        <a href="https://github.com/Git-gaby" target="_blank" class="btn btn-outline-light">
+          <i class="bi bi-github me-1"></i> Perfil de GitHub
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-dark text-secondary text-center py-4 border-top border-secondary border-opacity-25 small">
+    <div class="container">
+      <p class="mb-0">© 2026 Gabriel Jaime Gómez Restrepo — Desarrollado con Bootstrap 5</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 Bundle JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Lógica frontend propia -->
+  <script src="js/main.js"></script>
+</body>
+</html>
